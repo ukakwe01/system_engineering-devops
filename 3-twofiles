@@ -1,0 +1,4 @@
+chmod +x 3-twofiles
+#!/bin/bash
+cat /etc/passwd /etc/hosts
+
