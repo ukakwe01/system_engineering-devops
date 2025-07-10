@@ -1,4 +1,6 @@
 #!/bin/bash
+# loops
+
 for I in $( seq 1 10 ); do
 	echo "Best School"
 done
