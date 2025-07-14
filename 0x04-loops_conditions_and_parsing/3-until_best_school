@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
 # best school 10 times
 
-
 i = 1
 
-until false ; do
+until false; do
     echo "Best School"
     ((i++))
   if [ $i -gt 10 ]; then
