@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-# Creates a file with a tricky name and writes 'Best School' followed by a newline into it
+# Creates a file with a complex name containing escaped special characters
 
-echo "Best School" > '*\'"Best School"\'\*$\?*****:)'
-
+echo "Best School" > '*\\'"Best School"'\\*$\?\*\*\*\*\*:)'
