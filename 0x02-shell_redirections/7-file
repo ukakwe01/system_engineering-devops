@@ -1,5 +1,2 @@
-#!/usr/bin/env bash
-# Creates a file with a tricky name and writes 'Best School' followed by a newline into it
-
-echo "Best School" > '*\'"Best School"\'\*$\?*****:)'
-
+#!/bin/bash
+echo "Best School" > "\\'\"Best School\"\\'\$\\?***:)"
